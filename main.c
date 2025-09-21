@@ -3,14 +3,15 @@
 // ctrl s 할 때 저장은 그 기본 폴더에 하기(그게뜰거야) 
 int main(int argc, char *argv[])
 {
-    char c, d;
+    int ja, mo;
     
-    printf("input a character: ");
-    scanf("%c", &c);
+    printf("enter bunja: ");
+    scanf("%i", &ja);
     
-    d = c + 1;
-
-    printf("the next character of %c(%d) is %c(%d)\n", c, c, d, d); 
+    printf("enter bunmo: ");
+    scanf("%i", &mo);
+    
+    printf("the result is %f\n", (float)ja/mo);
     
     system("PAUSE");
   return 0;
